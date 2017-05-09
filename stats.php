@@ -42,6 +42,9 @@
    }
    
    //add the stats received from the OBEY server.
+   $stats = $_POST["stats"];
+   
+   echo $stats;
 
    $db->close();
 ?>
